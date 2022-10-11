@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            border: 1px;
+            text-align: left;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            width: 30%;
+            border-collapse: collapse;
+        }
+
+        tfoot {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>matière</th>
+                <th>note par matieres</th>
+                <th>coeficiant</th>
+                <th>note*coeficiant</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>mathematique </td>
+                <td> 17</td>
+                <td>4</td>
+                <td>68</td>
+            </tr>
+            <tr>
+                <td>physique</td>
+                <td>15</td>
+                <td>3</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>informatique</td>
+                <td>16</td>
+                <td>2</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td colspan="2">total</td>
+                <td>9</td>
+                <td>145</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3">moyenne</td>
+                <td>16.2</td>
+            </tr>
+        </tfoot>
+        </tbody>
+        <tfoot>
+            <tr>
+
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
